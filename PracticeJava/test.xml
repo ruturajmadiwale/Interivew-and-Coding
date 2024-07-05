@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Practice Suite">-->
+
+<!--&lt;!&ndash;    <groups>&ndash;&gt;-->
+<!--&lt;!&ndash;<run>&ndash;&gt;-->
+<!--&lt;!&ndash;    <include name="sanity"></include>&ndash;&gt;-->
+<!--&lt;!&ndash;</run>&ndash;&gt;-->
+<!--&lt;!&ndash;    </groups>&ndash;&gt;-->
+<!--&lt;!&ndash;    <parameter name="data" value="macha"></parameter>&ndash;&gt;-->
+
+<!--    <test name="Testing auto prac">-->
+<!--        <classes>-->
+<!--&lt;!&ndash;            <class name="TestNGTest"></class>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="TestNgTest2"></class>&ndash;&gt;-->
+<!--           &lt;!&ndash; <class name="uitest.BrowserInitialization"></class>&ndash;&gt;-->
+<!--            <class name="HomePageTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<!--<suite name="Practice Suite">-->
+
+<!--    <test name="Practice Test">-->
+<!--        <parameter name="browser" value="firefox"></parameter>-->
+<!--        <classes>-->
+
+<!--            <class name="uitest.pages.ChildPage"></class>-->
+<!--            <class name="uitest.pages.ChildPage2"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <suite-files>-->
+<!--        <suite-file path="test.xml"></suite-file>-->
+<!--    </suite-files>-->
+<!--</suite>-->
+
+<suite name="TestNG annotation Check">
+    <test name="TestAnnotation">
+        <classes>
+            <class name="uitest.ChildClass1"></class>
+            <class name="uitest.ChildClass2"></class>
+        </classes>
+    </test>
+</suite>
+

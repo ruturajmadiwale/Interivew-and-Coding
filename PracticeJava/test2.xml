@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="practice for interview">
+    <groups>
+        <run>
+            <include name="regression"></include>
+        </run>
+    </groups>
+    <test name="testing in the hallow">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+
+            <class name="digikeytest.TestNGPractice"></class>
+        </classes>
+    </test>
+</suite>
