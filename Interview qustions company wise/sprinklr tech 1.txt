@@ -1,0 +1,55 @@
+{
+    "id": "390",
+    "data": {
+        "leagueId": 35,
+        "homeTeam": "Norway",
+        "visitingTeam": "England",
+    },
+    "odds": [{
+        "price": "1.30",
+        "name": "1"
+    },
+    {
+        "price": "5.25",
+        "name": "X"
+    }]
+}
+/events?id=390
+
+Response resp = given().queryParam("id",390).when().get("/events").log().all().extract().response();
+Assert.assertEquals(resp.getStatusCode()==200)
+
+String responseBody = resp.body().asString();
+
+JsonPath js = new JsonPath(responseBody);
+String hometeam = js.get(data).get("homeTeam");
+Assert.assertEquals("Norway", hometeam);
+<Test name="Regression">
+<Suite name="regression1">
+<classes>
+<class name="org.com.suite1.TestLogin >
+<method name = "loginWithUserId" />
+<method
+</class>
+
+</classes>
+
+//div[text()='*_id1']
+
+WebElement dropdown = driver.findElement(By.id("metros"));
+
+Select ss = new Select(dropdown);
+ss.selectByValue("mu");
+ss.selectByVisibleText("Mumbai");
+ss.selectByIndex(1);
+
+List<WebElement> listSize = driver.findElenents(By.id("metros"));
+system.out.println("size of the list is:"+listSize.size());
+
+
+
+
+gatling
+scalar
+mongodb elastic
+sagar.reddy@sprinklr.com

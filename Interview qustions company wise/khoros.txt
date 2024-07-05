@@ -1,0 +1,79 @@
+public class BrowserInitialization {
+Webdriver driver;
+
+@Before
+public void initializeBrowser() {
+System.setProperty("webdriver.chrome.driver","path of chromedriver.exe");
+driver = new chromeDriver();
+driver.manage().timeouts().pageLoadTimeout(90,TimeUnit.seconds);
+driver.manage().timeouts().implicitlyWait(60,TimeUnit.seconds);
+driver.manage().window().maximize();
+driver.get("https://www.amazon.in");
+
+}
+
+@After
+public void tearBrowser() {
+driver.close();
+driver.quit();
+}
+
+public class Login extends BrowserInitialization {
+
+WebElement userName = By.id("userName");
+WebElemnt password = By.id("password");
+WebElennt login = By.xpath("//div//");
+
+public static void enterUserName() {
+userName.sendKeys("ABC");
+}
+
+public static void enterPassword() {
+password.sendKeys("def");
+}
+
+public static void clickLogin() {
+login.click();
+}
+
+}
+
+}
+
+public class ExecuteTestCases {
+
+@Test
+public void loginTest() {
+Login.enterUserName();
+Login.enterPassword();
+Login.clickLogin();
+}
+
+
+}
+
+Response rr = given().when().get("").then().log().all().extract().response();
+rr.getStatusCode();
+String body = rr.body().asString();
+
+String s = My Name is Ruturaj;
+String[] sd = s.split(" ");
+String result = "";
+for(int i=sd.size()-1; i>=0; i--) {
+result+=sd[i]+" ";
+}
+sop(result.trim()); 
+
+int[] a ={1,2,4,..};
+int firstIndex;
+int secondIndex;
+for(int i=0; i<a.length(); i++) {
+for(int j=i+1; j<a.length(); j++) {
+if((i!=j) && a[i]+a[j]==16) {
+ firstIndex=i;
+secondIndex=j;
+break;
+}
+} 
+}
+sop(firstIndex+","+secondIndex);

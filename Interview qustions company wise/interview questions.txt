@@ -1,0 +1,214 @@
+
+Interview Questions
+Coding Interview Questions
+
+Rakuten - Ruturaj
+1) int[] arr = {5,3,8,2,-2,-3} find sum where negative number should be treat as positive number
+    a) Without recursion
+    b) With recursion
+2) Reverse String without using toCharArray();
+3) What is difference between git and svn.
+4) What is difference between git and gitHub.
+5) How to resolve conflict? What is use of git rebase and syntax.
+6) What is RTM?
+7) What is your roles and responsibilities?
+8) What is estimation how do you do?
+9) Difference between checked and unchecked exception with example?
+10) Method overloading and overriding where excatly u used in ur project?
+11) How to swithch to newTab and come back to parent tab in selenium?
+12) What are different annotation in BDD cucumber?
+13) What is difference between scenario and scenario outline?
+14) Explain TestNG? Advantages?
+15) Tell the order of annotations of TestNG.
+16) Different types of locators?
+17) what is predding sibling and following sibbling what type of locator these are?
+
+Aurigo : Meghana
+1)How do you execute a parallel test in Selenium?
+2)How do you test an GET req given to you ? What is the test plan for the same?
+3) Explain public static void main?
+4) Access modifiers
+5) Is Java static or dynamic language?
+
+
+
+Epicor : Meghana
+1)Explain about the roles and responsibilities in the project
+2) Parallel test execution in selenium
+3)POM model various questions on framework
+4) Questions in Static and abstract
+5) Abstract and interface
+6) difference between throws and try ,catch
+7) Fibonacci series
+8) difference between map,list,set
+9) what are the different methods in list interface
+10)How to interate in list?
+11) Data providers in Selenium
+12)RCA for customer related bugs
+13)how to execute tests without an ide?
+
+Trigent - Hareesh
+1st Round
+Palindrome
+Anagram
+All permutation and combinations of a string
+How to handle multiple windows in selenium?
+How to handle checkboxes, dropdowns?
+Methods of Selenium Action class?
+HTTP response codes?
+Difference between PUT and POST?
+
+
+2nd Round
+
+1. REST API tokens ?
+Bearer token, Oauth token how does it work in the background?
+2. What is a SILK test tool?
+3. REST API  codes
+202,500,504,429
+4. How does HTTP handshake work?
+5. Write code for automating POST request
+6. GIT new branch and pull command
+Problem - 
+1.Program to find the occurrence of vowels in a string
+
+
+
+
+Rakuten- Rajesh
+Find the missing number in the array
+Longest substring length in string 
+Duplicate characters in String 
+Xpath and css locators examples 
+Navigate to a element in amazon.in and create a dynamic xpath 
+How to run same api request n times in postman and restAssured 
+What are different HTTP status codes 
+What is the difference between testing a mobile application and web application 
+Window handling in selenium with example 
+Method overriding example in framework
+Interface and abstraction example in framework 
+Diff between hybrid and native app 
+Page factory and page object model difference 
+Types of locators
+Performance tests in mobile applications 
+Testcases for mobile application performance 
+Dropdown selecting in selenium
+
+Harman- Meghana
+    1.String reversal without using inbuilt functions
+   2. Fibonacci series
+   3.Input= 4589  output =9845
+   4. Waits in selenium
+   5. CSS selector and XPath
+   6. Whose performance is better CSS or XPATH
+7.Excel file has client credentials stored! Do you see any risk in pushing the excel file to GIT? How can you handle this scenario
+8.Two Negative cases for cart page of amazon
+
+
+Walmart- Ruturaj
+1) find duplicate elements from array max by using only 1 loop and you can use any collections.
+2) Write rest assured code to hit the get request and fetch emp id, emp name store it in Map and print.
+3) Write selenium code to search text on walmart.com and fetch title with proper structure.
+4) Where have You used method overloading in your project.
+5) String s = "i Am from delhi"
+   i want o/p: Delhi From Am I
+   the first letter of every reverse string should be in capital letter. 
+and it should not print space at the end.
+6) What is the time complexity for the above java program?
+7) difference between final, finally and finalize?
+8) What is maven and it's life cycle?
+9) git commands how do you create branch and push ur changes to remote repo.
+10) What is static class?
+11) Difference between interface and class?
+
+
+Zinier- Hareesh
+
+1. Different types of assertions, Hard Assertion and Soft Assertion
+2. Program to print digits in a string
+3. Methods in Action class, why we use build().perform() 
+4. Best reporting tools in selenium
+5. How to handle Test data in ResAssured? How to build payload? How to process REST API Response?
+How to handle large request payloads?
+6. abstract class vs interface.
+   Why do we need interface since we already have abstract in java
+7. Program- Arrange digits in a string to the end of the string
+Example: input: cou4nt567
+Output: count4567
+8.How to pass dynamically changing JSON as a request payload?
+
+
+SIXT : Meghana
+1)First occurrence of substring in string
+2)Reversal of string by keeping the spaces in place!
+3)Static keyword in Java
+4)Collections which you have some idea
+5)Singleton class
+6)Test case for coupon code
+
+Rakuten round 2 Ruturaj
+
+1) Write a program to print the adjacent vowels from given string and also print the occurrence of each adjacent vowels and sort  the vowels in ascending order
+
+String input = “Wow aaabc, Rakuten India Research and Development Center”
+
+op:  aa 2, ia 1, ea 1
+
+2) what is notify and wait in java?
+3) give me 4 negative out of box scenarios for the ludo snake game where these scenarios should definitely break the application.
+4) assume there is one element on web page we don’t know when it will get visible but whenever it is visible it will there for 1 minute now you have to click on that command and perform business action and it should not error even if it is not present or not clicked how do you do?
+5) what is difference between defect and bug?
+6) can we extend child class in parent class? 
+7) what is private and protected access modifier?
+8) What is token? Which token have u used in ur apis
+9) what is 502 error in api response?
+
+InfoBlox Hareesh
+
+Identify and print duplicate characters in a string using Java collections
+OOPS Concepts 
+Different type of waits
+PATCH vs PUT vs POST methods
+Executing tests parallel in testNg
+Handling multiple browser windows
+Framework design
+Final vs finally vs finalize
+Find Xpath of an element from a sample salesforce page
+Annotations in Testng
+  this and super in java
+Apache POI library for reading and writing to excel
+
+
+Wrike -  Rajesh 
+
+What is the parent class of all classes in java? 
+What are the two main data types in java ? 
+What is the two main classes in Exceptions 
+What are the two kinds of exceptions in java ? 
+Can we override static method ? 
+Different access modifiers in java 
+Can we overload a final method ? 
+What are wrapper classes in java? 
+What is diamond problem in java? 
+Can we achieve 100% abstraction with abstract class
+Difference between hashtable and hashmap 
+
+unify tech Ruturaj
+
+1) <div id='abc'>Ruturaj
+   <p>Madiwale</p>
+</div>
+Find the text of only parent element and not the child class element.
+
+=> for this we have use HTML parser in java it is JSoup
+
+        WebElement element = driver.findElement(By.xpath("//div[@class='code-output'][1]"));
+       // System.out.println("Text is:"+text);
+        String result = Jsoup.parse(element.getAttribute("outerHTML")).selectFirst(element.getTagName()).ownText();
+        System.out.println("result is:"+result);
+
+2) [3,12,0,5,4,0,3,0,0,0] shift zeroes to right side of the array without using one more array
+o/P: [3,12,5,4,3,0,0,0,0,0]
+
+3) i/p: aaabbchhhbee2ffbb
+   o/p: 3a2b1c3h1b2e122f2b 

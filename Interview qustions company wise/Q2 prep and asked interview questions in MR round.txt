@@ -1,0 +1,67 @@
+Q2 is providing digital banking and lending solution to the banks.
+Q2 is into delivering our mobile banking platoform and technology solution
+
+
+The reason is the learning opportunities and carrer growth opportunities which my current
+company promised me during interview I didn't get that on actual job. They have promised me
+you will have lot of work on automation side like optimizing current automation suite,
+fixing the failures integrating that with Azure devops and taking small small initiateves.
+like sending these automation coverge reports manager and the team. Creating test plan
+automation stratergy so these skills where aligning with my career goal to become lead
+
+but here they have put me into one project where there is no scope of automation and less
+manual testing, in mid they put in to another project where there is also only manual work
+
+that is where I have realized that this is not going me to grow much in my career.
+
+when i gone through JD for this role all the requirement which are mentioned in the JD were
+helping me to achieve my long term goals.
+
+1)Can you describe a situation where you successfully led a QA team through a challenging project or situation?
+2)How do you prioritize tasks and allocate resources within your QA team?
+
+1)How do you approach test planning and strategy for large-scale projects?
+2)Can you explain your process for implementing QA processes and methodologies within an organization?
+3)How do you ensure that QA initiatives align with broader organizational goals and objectives?
+4)What metrics do you use to measure the effectiveness of your QA processes, and how do you use this data to drive improvements?
+
+Technical Expertise:
+
+What automation tools and frameworks are you proficient in, and how have you utilized them in previous roles?
+Can you discuss a complex technical challenge you faced in a previous QA role and how you solved it?
+How do you stay updated on the latest trends and advancements in QA and software testing?
+Can you provide examples of your experience with performance testing, security testing, or other specialized areas within QA?
+Team Collaboration and Communication:
+
+How do you ensure effective communication and collaboration between QA, development, and other cross-functional teams?
+Can you discuss a time when you had to communicate QA-related issues or concerns to senior management or stakeholders?
+How do you foster a culture of quality within your QA team and across the organization?
+Can you provide examples of how you promote knowledge sharing and continuous learning within your QA team?
+Problem-Solving and Decision-Making:
+
+Describe a situation where you encountered a critical issue or bug in a production environment. How did you handle it?
+How do you approach risk management in QA, and how do you prioritize risks during testing?
+Can you discuss a time when you had to make a difficult decision under pressure in a QA leadership role?
+
+Question asked in the interview:
+
+1) There are 3 testNG method with @Test annotation say a) login   b) verify    c) logout 
+now there is UN and pwd present in the excel sheet like 1k records now you have to read that data from excel sheet and use in your code such that
+all three method should run 1k times. 
+for more clear                   eg: UN: raj pwd: rajtest now for this 1st login should run then verify then logout.
+now it should go to 2nd test case    UN: rutu pwd: rtuttest now for this again 1st login should run then verify then logout.
+like this how you can achieve this using selenium or java or testNg.
+
+=> for this solutin is written here in the below path
+C:\Users\madiw\Documents\Rutu\Projects\AutomationProjects\Q2InterviewTest\src\main\java\DataTest.java
+
+2) How do you do cross browser testing? 
+   a) by using browser stack and other tools
+   b) without using those tools
+
+3) How to do parallel testing in selenium
+   a) using testNg
+   b) using selenium grid
+
+4) In your previous or current why that specific framework is chosen like if u r using testNG framework why that is only selected why not other?
+   or if it is BDD cucumber why u selected that what is the reason.

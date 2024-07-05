@@ -1,0 +1,40 @@
+
+for(int i=0; i<10; i++) {
+List<WebElement> otp = driver.findElements(By.xpath(""));
+if(otp.size()>0){
+break;
+}
+Thread.sleep(1);
+}
+
+{abcab}//abcba 
+  deed=  d=2  e=2
+ ehcchdfdhccheg c=2 h=4 d=2 e=2 f=1   g=1 
+
+
+
+String s = "abcab";
+List<Integer> ll = new ArrayList<Integer>();
+
+for(int i=0; i<s.length(); i++) {
+int count=0;
+char c = s.charAt(i);
+for(int j=0; j<s.length(); j++) {
+ if(c == s.charAt(j)) {
+	count++;
+}
+}
+ll.add(count);[2,4,2,2,3,5]
+}
+int oddCount =0;
+for(int z=0; z<ll.size(); z++) {
+if(ll.get(z)%2 !=0) {
+   oddCount++;
+}
+}
+
+if(oddCount<2) 
+sysout("Not palindrome");
+else
+sysout("palindrome");
+   

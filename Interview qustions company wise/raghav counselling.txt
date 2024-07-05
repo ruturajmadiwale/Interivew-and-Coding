@@ -1,0 +1,15 @@
+1.E002 S K S J T Institute of Engineering. Bangalore kcet-16000
+2.E004 Dr. Ambedkar Institute Of Technology Bangalore kcet-10000
+3.E010 Islamia Institute of Technology Bangalore kcet-29000 (FS) (D)
+4.E011 M V J College of Engineering Bangalore kcet-21350 (S)
+5.E037 K.L.S. Gogte Institute of Technology Belgaum kcet-10000
+6.E078 The Oxford College of Engineering Bangalore kcet-30000 (FS)
+7.E079 Acharya Institute of Technology Bangalore kcet-16563 (s)
+8.E083 H.K.B.K.College of Engineering Bangalore kcet-60000 (FS)(D)
+9.E095 AMC Engineering College Bangalore kcet-47000 (FS)(D)
+10.E097 C M R Institute of Technology Bangalore kcet-14000(s)
+11.E098 Atria Institute of Technology Bangalore kcet-30000 (FS)
+12.E099 New Horizon College of Engineering Bangalore kcet-11000(R)
+13.E102 DONBOSCO Institute of Technology Bangalore kcet-35000(FS)
+14.E103 Global Academy of Technology Bangalore kcet-24000(FS)
+15.E104 Nagarjuna College of Engineering and Technology Bangalore kcet-49000(FS)
