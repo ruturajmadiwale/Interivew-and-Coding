@@ -1,0 +1,31 @@
+XssfWorkbook wb = new XssfWorkbook("path of the excel file");
+XssfSheet sheet = wb.getSheet("Sheet name");
+int totalRows = sheet.getLastRowNum();
+for(int i=0; i<totalRows; i++) {
+XssfRow row = sheet.getrow(i);
+for(int j=0; j<3; j++) {
+string value= row.getCell(0).getStringcellValue();
+println(value);
+}
+}
+<suite>
+<parameter name="browser" value="chrome">
+<group>
+<run>
+<inlucde name="sanity">
+
+
+@Test(timeouts=100, invocationCount=1000)
+@parameter("browser")
+
+
+1) can one class extends another class and that implements another interface?
+2) how to pass multiple parameter value?
+3) what is difference between page object and page factory?
+4) what is the common componet u have added in ur framework?
+5) String S="I am programer I am done" reverse the String word wise and find the duplicate values from that String you can use Set.
+6) what is finally block
+7) can we create only concerete method in the abstract class.
+8) Explain your oops concepts you have used in ur framework with examples.
+9) wrte a pgm to read data from excel file.
+10) what is diff b/w checked exception and unchecked exception.
